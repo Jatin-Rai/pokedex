@@ -2,8 +2,7 @@
 This Pokédex web app is built using ReactJS, Redux Toolkit, and Axios. It allows users to search, browse and bookmark Pokémons.
 
 ## Live Link
-Check out the live link - 
-<!-- [https://pokedex-flurn.netlify.app/](https://pokedex-flurn.netlify.app/) -->
+Check out the live link - [https://pokedex-by-jatin.netlify.app/](https://pokedex-by-jatin.netlify.app/)
 
 ## Features
 
