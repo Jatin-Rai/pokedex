@@ -1,0 +1,13 @@
+.text-decoration-none {
+  color: black;
+  font-size: large;
+  text-decoration: none;
+  filter: grayscale(50%);
+}
+
+.active {
+  color: red;
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+}
