@@ -97,7 +97,7 @@ const Details = () => {
               />
             </Container>
             <Col className="d-flex">
-              <Container>
+              <Container md={2}>
                 <Card className="w-75 shadow">
                   <Card.Body className="p-4">
                     <Card.Title className="text-center">
@@ -112,6 +112,8 @@ const Details = () => {
                   </Card.Body>
                 </Card>
               </Container>
+            </Col>
+            <Col>
               <Container>
                 <Card className="shadow">
                   <div>

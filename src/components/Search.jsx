@@ -27,7 +27,7 @@ const Search = () => {
         <Form.Control
           type="text"
           className="custom-style"
-          placeholder="seacrh your favourite pokémon.."
+          placeholder="Search..."
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
           onKeyDown={(e) => {
