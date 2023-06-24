@@ -17,7 +17,7 @@ Check out the live link - [https://pokedex-by-jatin.netlify.app/](https://pokede
 
 ## Packages Used
 
-- ReactJS
+- Vite + ReactJS
 - Redux Toolkit
 - Axios
 - React Infinite Scroll Component
