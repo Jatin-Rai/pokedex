@@ -13,19 +13,19 @@ Check out the live link -
 
 - **Details Page :** Shows detailed information about a selected Pokémon, including its abilities, types, stats, and more. Users can bookmark a Pokémon and save it as a favorite on their device.
 
-- **Bookmarks Screen :** Allows users to view all their bookmarked Pokémon.
+- **Bookmarks Page :** Allows users to view all their bookmarked Pokémon.
 
 
 ## Packages Used
 
 - ReactJS
-- Redux Toolkit (for state management)
-- Axios (for API calls)
-- React Infinite Scroll Component (for infinite scrolling functionality)
-- React Redux (for integrating Redux with React)
-- React Router DOM (for routing within the app)
-- React Tabs (for tab-based navigation)
-- React Bootstrap and Bootstrap (for styling)
+- Redux Toolkit
+- Axios
+- React Infinite Scroll Component
+- React Redux
+- React Router DOM
+- React Tabs
+- React Bootstrap and Bootstrap
 
 ## Creator
 
