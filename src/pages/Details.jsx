@@ -98,7 +98,7 @@ const Details = () => {
             </Container>
             <Col className="d-flex">
               <Container md={2}>
-                <Card className="w-75 shadow">
+                <Card className="w-100 shadow mb-4">
                   <Card.Body className="p-4">
                     <Card.Title className="text-center">
                       {capitalizeFirstLetter(pokemon.name)}
@@ -115,7 +115,7 @@ const Details = () => {
             </Col>
             <Col>
               <Container>
-                <Card className="shadow">
+                <Card className="shadow mb-4">
                   <div>
                     <Tabs>
                       <TabList>
