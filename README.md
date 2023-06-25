@@ -36,11 +36,13 @@ Check out the live link - [https://pokedex-by-jatin.netlify.app/](https://pokede
 ## Screenshots
 
 - **Desktop**
+
   ![image](/assets/listingpage_d.png)
   ![image](/assets/detailspage_d.png)
   ![image](/assets/bookmarkspage_d.png)
 
 - **Mobile**
+
   ![image](/assets/listingpage_m.jpeg)
   ![image](/assets/detailspage_m.jpeg)
   ![image](/assets/bookmarkspage_m.jpeg)
