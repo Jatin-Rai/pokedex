@@ -36,11 +36,11 @@ Check out the live link - [https://pokedex-by-jatin.netlify.app/](https://pokede
 ## Screenshots
 
 - **Desktop**
-  [listing-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/listingpage_d.png)
-  [details-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/detailspage_d.png)
-  [bookmarks-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/bookmarkspage_d.png)
+  ![listing-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/listingpage_d.png)
+  ![details-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/detailspage_d.png)
+  ![bookmarks-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/bookmarkspage_d.png)
 
 - **Mobile**
-  [listing-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/listingpage_m.png)
-  [details-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/detailspage_m.png)
-  [bookmarks-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/bookmarkspage_m.png)
+  ![listing-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/listingpage_m.png)
+  ![details-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/detailspage_m.png)
+  ![bookmarks-page](https://github.com/Jatin-Rai/pokedex/tree/main/assets/bookmarkspage_m.png)
