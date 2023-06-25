@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 // ** Custom Styles Imports
 import "../styles/details.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
 
 // ** react-router-dom Imports
 import { useParams } from "react-router-dom";
@@ -96,9 +96,9 @@ const Details = () => {
                 onClick={() => handleBookmark(pokemon)}
               />
             </Container>
-            <Col className="d-flex">
-              <Container md={2}>
-                <Card className="w-100 shadow mb-4">
+            <Col className="d-flex" md={3}>
+              <Container className="w-100">
+                <Card className="shadow mb-4">
                   <Card.Body className="p-4">
                     <Card.Title className="text-center">
                       {capitalizeFirstLetter(pokemon.name)}
@@ -113,8 +113,8 @@ const Details = () => {
                 </Card>
               </Container>
             </Col>
-            <Col>
-              <Container>
+            <Col md={9}>
+              <Container className="w-100">
                 <Card className="shadow mb-4">
                   <div>
                     <Tabs>
@@ -166,27 +166,27 @@ const Details = () => {
                         </div>
                       </TabPanel>
                       <TabPanel>
-                        <div className="details-stats p-4">
+                        <Row className="d-flex flex-column p-4">
                           {pokemon.stats.map((item, index) => {
                             return (
-                              <div key={index} className="stats">
-                                <p>{capitalizeFirstLetter(item.stat.name)}</p>
-                                <span>{item.base_stat}</span>
-                                <div>
-                                  <p
-                                    style={{
-                                      backgroundColor: progressBarColor(
-                                        item.base_stat
-                                      ),
-                                      width: `${item.base_stat}%`,
-                                      maxWidth: "100%",
-                                    }}
-                                  ></p>
-                                </div>
-                              </div>
+                              <>
+                                <Col key={index} className="mt-4">
+                                  <p className="text-center mb-1">
+                                    {item.stat.name.toUpperCase()}
+                                  </p>
+                                  {/* <span>{item.base_stat}</span> */}
+                                  <ProgressBar
+                                    now={item.base_stat}
+                                    label={`${item.base_stat}%`}
+                                    variant="danger"
+                                    max={100}
+                                    striped
+                                  />
+                                </Col>
+                              </>
                             );
                           })}
-                        </div>
+                        </Row>
                       </TabPanel>
                       <TabPanel>
                         <div className="details-moves p-4">
