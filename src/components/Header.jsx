@@ -1,7 +1,6 @@
 import React from "react";
 
 // ** Styles imports
-import "../styles/header.css";
 import { Navbar, Container } from "react-bootstrap";
 
 // ** react-router-dom imports
