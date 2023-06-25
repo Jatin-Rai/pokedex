@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <p>Copyright&copy; {currentYear} Jatin Rai | All Rights Reserved.</p>
+            <p>Copyright&copy; {currentYear} by Jatin Rai | All Rights Reserved.</p>
           </Col>
           <Col md={6}>
             <p></p>
