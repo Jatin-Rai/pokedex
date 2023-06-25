@@ -22,12 +22,12 @@ const Search = () => {
   };
 
   return (
-    <Container className="w-50 my-1 p-3">
+    <Container className="w-75 my-1 p-3">
       <Form className="d-flex flex-row shadow" onSubmit={handleSubmit}>
         <Form.Control
           type="text"
-          className="custom-style"
-          placeholder="Search..."
+          className="custom-style text-center"
+          placeholder="Search Pokémon..."
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
           onKeyDown={(e) => {
