@@ -1,11 +1,10 @@
-// ** React Imports
 import React, { useState } from "react";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "../styles/search.css";
 import { Form, Container } from "react-bootstrap";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { useNavigate } from "react-router-dom";
 
 const Search = () => {

@@ -1,18 +1,17 @@
-// ** React Imports
 import React from "react";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "../styles/navigation.css";
 
 import { Navbar, Container } from "react-bootstrap";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { Link } from "react-router-dom";
 
-// ** Redux hooks Imports
+// ** Redux hooks imports
 import { useDispatch, useSelector } from "react-redux";
 
-// ** Imports from PokemonSlice
+// ** PokemonSlice imports
 import { updateActiveRoute } from "../store/pokemon";
 
 const Navigation = () => {

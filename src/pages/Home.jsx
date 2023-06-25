@@ -1,8 +1,7 @@
-// ** React Imports
 import React from 'react';
 
-// ** Custom Components Imports
-import { Header, Listing, Navigation, Search } from '../components'
+// ** Components Imports
+import { Footer, Header, Listing, Navigation, Search } from '../components'
 
 const Home = () => {
 
@@ -12,6 +11,7 @@ const Home = () => {
             <Search />
             <Navigation />
             <Listing />
+            <Footer />
         </>
     )
 }

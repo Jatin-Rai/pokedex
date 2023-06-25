@@ -1,26 +1,25 @@
-// ** React Imports
 import React, { useState } from "react";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "../styles/listing.css";
 import { Row, Col, Card, Container } from "react-bootstrap";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { useNavigate } from "react-router-dom";
 
-// ** Custom Components Imports
+// ** Custom Components imports
 import { Loading } from "./index";
 
-// ** Custom Utilities Functions Imports
+// ** Utilities Functions imports
 import { capitalizeFirstLetter, isBookmarked } from "../utils/functions";
 
-// ** Redux hooks Imports
+// ** Redux hooks imports
 import { useDispatch, useSelector } from "react-redux";
 
-// ** Imports from PokemonSlice
+// ** PokemonSlice imports
 import { fetchPokemons } from "../store/pokemon";
 
-// ** Third Party Import
+// ** infinite scroll package import
 import InfiniteScroll from "react-infinite-scroll-component";
 
 const Listing = () => {

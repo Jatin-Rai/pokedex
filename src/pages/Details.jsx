@@ -1,31 +1,29 @@
-// ** React Imports
 import React, { useEffect, useState } from "react";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "../styles/details.css";
 import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { useParams } from "react-router-dom";
 
-// ** Redux hooks Imports
+// ** Redux hooks imports
 import { useDispatch, useSelector } from "react-redux";
 
-// ** Custom Components Imports
-import { Header, Loading, Navigation, Search } from "../components";
+// ** Components imports
+import { Footer, Header, Loading, Navigation, Search } from "../components";
 
-// ** Third Party Import
+// ** Tab Import
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
-// ** Custom Utilities Functions Imports
+// ** Utilities Functions Imports
 import {
-  progressBarColor,
   capitalizeFirstLetter,
   isBookmarked,
 } from "../utils/functions";
 
-// ** Imports from PokemonSlice
+// ** PokemonSlice imports
 import {
   fetchSinglePokemonDetail,
   removePokemon,
@@ -203,6 +201,7 @@ const Details = () => {
           </>
         )}
       </Row>
+      <Footer />
     </Container>
   );
 };

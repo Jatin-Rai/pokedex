@@ -1,14 +1,15 @@
-// ** React Imports
 import React from "react";
+
+// ReactDOM client import
 import ReactDOM from "react-dom/client";
 
-// ** Custom Components Imports
+// ** Components imports
 import App from "./App.jsx";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "./styles/index.css";
 
-// ** Store Imports
+// ** Store imports
 import { store } from "./store";
 import { Provider } from "react-redux";
 

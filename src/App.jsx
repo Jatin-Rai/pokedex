@@ -1,16 +1,15 @@
-// ** React Imports
 import { useEffect } from "react";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// ** Redux hooks Imports
+// ** Redux hooks imports
 import { useDispatch } from "react-redux";
 
-// ** Pages Imports
+// ** Pages imports
 import { Bookmarks, Details, Home } from "./pages";
 
-// ** Imports from PokemonSlice
+// ** PokemonSlice imports
 import { fetchPokemons, updateActiveRoute } from "./store/pokemon";
 
 import { Container } from "react-bootstrap";

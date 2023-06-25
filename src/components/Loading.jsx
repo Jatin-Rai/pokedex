@@ -1,7 +1,6 @@
-// ** React Imports
 import React from "react";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "../styles/loading.css";
 
 const Loading = () => {

@@ -1,7 +1,6 @@
-// ** React Imports
 import React, { useEffect, useState } from "react";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { useNavigate } from "react-router-dom";
 
 //** bootstrap styles
@@ -11,7 +10,7 @@ import { Row, Col, Container, Card } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 
 // ** Custom Components Imports
-import { Header, Navigation, Search } from "../components";
+import { Footer, Header, Navigation, Search } from "../components";
 
 // ** Custom Utilities Functions Imports
 import { capitalizeFirstLetter } from "../utils/functions";
@@ -113,6 +112,7 @@ const Bookmarks = () => {
             );
           })}
         </Row>
+        <Footer />
       </Container>
     </>
   );

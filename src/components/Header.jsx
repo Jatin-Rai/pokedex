@@ -1,17 +1,16 @@
-// ** React Imports
 import React from "react";
 
-// ** Custom Styles Imports
+// ** Styles imports
 import "../styles/header.css";
 import { Navbar, Container } from "react-bootstrap";
 
-// ** react-router-dom Imports
+// ** react-router-dom imports
 import { Link } from "react-router-dom";
 
-// ** Redux hooks Imports
+// ** Redux hooks imports
 import { useDispatch } from "react-redux";
 
-// ** Imports from PokemonSlice
+// ** PokemonSlice imports
 import { updateActiveRoute } from "../store/pokemon";
 
 const Header = () => {
